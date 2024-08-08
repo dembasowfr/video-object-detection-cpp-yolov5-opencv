@@ -18,6 +18,7 @@ Detector::Detector(const std::string& modelPath, bool useCUDA) {
         net.setPreferableTarget(cv::dnn::DNN_TARGET_CUDA_FP16);
     } else {
         std::cout << "Running on CPU\n";
+        std::cout << "Program running ... \n";
         net.setPreferableBackend(cv::dnn::DNN_BACKEND_OPENCV);
         net.setPreferableTarget(cv::dnn::DNN_TARGET_CPU);
     }
@@ -38,7 +39,7 @@ cv::Mat Detector::formatYOLOv5(const cv::Mat& source) {
 
 
 // This function is used to detect objects in the input image ✅
-void Detector::detect(const cv::Mat& image, std::vector<Detection>& output, const std::vector<std::string>& classList) {
+void Detector::detect(const cv::Mat& image, std::vector<Detection>& detections, const std::vector<std::string>& classList) {
 
     // blob is the input size for YOLOv5
     cv::Mat blob;
@@ -119,7 +120,7 @@ void Detector::detect(const cv::Mat& image, std::vector<Detection>& output, cons
         result.class_id = classIds[idx];
         result.confidence = confidences[idx];
         result.box = boxes[idx];
-        output.push_back(result);
+        detections.push_back(result);
     }
 
 }
