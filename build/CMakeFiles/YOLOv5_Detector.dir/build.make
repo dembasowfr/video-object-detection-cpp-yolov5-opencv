@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv
+CMAKE_SOURCE_DIR = /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/build
+CMAKE_BINARY_DIR = /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/YOLOv5_Detector.dir/depend.make
@@ -72,78 +72,63 @@ include CMakeFiles/YOLOv5_Detector.dir/flags.make
 CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.o: CMakeFiles/YOLOv5_Detector.dir/flags.make
 CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.o: ../src/Detection.cpp
 CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.o: CMakeFiles/YOLOv5_Detector.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.o -MF CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.o.d -o CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.o -c /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/Detection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.o -MF CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.o.d -o CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.o -c /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/src/Detection.cpp
 
 CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/Detection.cpp > CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/src/Detection.cpp > CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.i
 
 CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/Detection.cpp -o CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/src/Detection.cpp -o CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.s
 
 CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o: CMakeFiles/YOLOv5_Detector.dir/flags.make
 CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o: ../src/Detector.cpp
 CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o: CMakeFiles/YOLOv5_Detector.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o -MF CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o.d -o CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o -c /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/Detector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o -MF CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o.d -o CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o -c /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/src/Detector.cpp
 
 CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/Detector.cpp > CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/src/Detector.cpp > CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.i
 
 CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/Detector.cpp -o CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.s
-
-CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.o: CMakeFiles/YOLOv5_Detector.dir/flags.make
-CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.o: ../src/Image.cpp
-CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.o: CMakeFiles/YOLOv5_Detector.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.o -MF CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.o.d -o CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.o -c /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/Image.cpp
-
-CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/Image.cpp > CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.i
-
-CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/Image.cpp -o CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/src/Detector.cpp -o CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.s
 
 CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.o: CMakeFiles/YOLOv5_Detector.dir/flags.make
 CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.o: ../src/Utils.cpp
 CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.o: CMakeFiles/YOLOv5_Detector.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.o -MF CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.o.d -o CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.o -c /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.o -MF CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.o.d -o CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.o -c /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/src/Utils.cpp
 
 CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/Utils.cpp > CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/src/Utils.cpp > CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.i
 
 CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/Utils.cpp -o CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/src/Utils.cpp -o CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.s
 
 CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o: CMakeFiles/YOLOv5_Detector.dir/flags.make
 CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o: CMakeFiles/YOLOv5_Detector.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o -MF CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o.d -o CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o -c /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o -MF CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o.d -o CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o -c /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/src/main.cpp
 
 CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/main.cpp > CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/src/main.cpp > CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.i
 
 CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/main.cpp -o CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/src/main.cpp -o CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.s
 
 # Object files for target YOLOv5_Detector
 YOLOv5_Detector_OBJECTS = \
 "CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.o" \
 "CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o" \
-"CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.o" \
 "CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.o" \
 "CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o"
 
@@ -152,7 +137,6 @@ YOLOv5_Detector_EXTERNAL_OBJECTS =
 
 YOLOv5_Detector: CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.o
 YOLOv5_Detector: CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o
-YOLOv5_Detector: CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.o
 YOLOv5_Detector: CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.o
 YOLOv5_Detector: CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o
 YOLOv5_Detector: CMakeFiles/YOLOv5_Detector.dir/build.make
@@ -211,7 +195,7 @@ YOLOv5_Detector: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.5.4d
 YOLOv5_Detector: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
 YOLOv5_Detector: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 YOLOv5_Detector: CMakeFiles/YOLOv5_Detector.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable YOLOv5_Detector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable YOLOv5_Detector"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/YOLOv5_Detector.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -223,6 +207,6 @@ CMakeFiles/YOLOv5_Detector.dir/clean:
 .PHONY : CMakeFiles/YOLOv5_Detector.dir/clean
 
 CMakeFiles/YOLOv5_Detector.dir/depend:
-	cd /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/build /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/build /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/build/CMakeFiles/YOLOv5_Detector.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/build /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/build /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/build/CMakeFiles/YOLOv5_Detector.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/YOLOv5_Detector.dir/depend
 

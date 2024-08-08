@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.o.d"
   "CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o"
   "CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o.d"
-  "CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.o"
-  "CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.o.d"
   "CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.o"
   "CMakeFiles/YOLOv5_Detector.dir/src/Utils.cpp.o.d"
   "CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o"

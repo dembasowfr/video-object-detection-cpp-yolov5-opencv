@@ -1,7 +1,7 @@
 CMakeFiles/YOLOv5_Detector.dir/src/Detection.cpp.o: \
- /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/Detection.cpp \
+ /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/src/Detection.cpp \
  /usr/include/stdc-predef.h \
- /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/include/Detection.h \
+ /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/include/Detection.h \
  /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/include/opencv4/opencv2/core.hpp \

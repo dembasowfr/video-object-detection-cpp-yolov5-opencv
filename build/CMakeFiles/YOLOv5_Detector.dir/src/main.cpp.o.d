@@ -1,5 +1,5 @@
 CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o: \
- /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/main.cpp \
+ /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -144,7 +144,7 @@ CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/include/Image.h \
+ /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/include/Detector.h \
  /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/include/opencv4/opencv2/core.hpp \
@@ -328,6 +328,5 @@ CMakeFiles/YOLOv5_Detector.dir/src/main.cpp.o: \
  /usr/include/opencv4/opencv2/video.hpp \
  /usr/include/opencv4/opencv2/video/tracking.hpp \
  /usr/include/opencv4/opencv2/video/background_segm.hpp \
- /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/include/Detection.h \
- /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/include/Detector.h \
- /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/include/Utils.h
+ /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/include/Detection.h \
+ /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/include/Utils.h

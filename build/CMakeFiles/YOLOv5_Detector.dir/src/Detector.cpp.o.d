@@ -1,7 +1,7 @@
 CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o: \
- /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/src/Detector.cpp \
+ /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/src/Detector.cpp \
  /usr/include/stdc-predef.h \
- /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/include/Detector.h \
+ /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/include/Detector.h \
  /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/include/opencv4/opencv2/core.hpp \
@@ -329,4 +329,4 @@ CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.o: \
  /usr/include/opencv4/opencv2/video.hpp \
  /usr/include/opencv4/opencv2/video/tracking.hpp \
  /usr/include/opencv4/opencv2/video/background_segm.hpp \
- /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/include/Detection.h
+ /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/include/Detection.h

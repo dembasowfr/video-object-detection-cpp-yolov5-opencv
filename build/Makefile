@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv
+CMAKE_SOURCE_DIR = /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/build
+CMAKE_BINARY_DIR = /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/build/CMakeFiles /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/build/CMakeFiles /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dembasow/ai/image-object-detection-cpp-yolov5-opencv/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dembasow/ai/video-object-detection-cpp-yolov5-opencv/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,30 +177,6 @@ src/Detector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/YOLOv5_Detector.dir/build.make CMakeFiles/YOLOv5_Detector.dir/src/Detector.cpp.s
 .PHONY : src/Detector.cpp.s
 
-src/Image.o: src/Image.cpp.o
-.PHONY : src/Image.o
-
-# target to build an object file
-src/Image.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YOLOv5_Detector.dir/build.make CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.o
-.PHONY : src/Image.cpp.o
-
-src/Image.i: src/Image.cpp.i
-.PHONY : src/Image.i
-
-# target to preprocess a source file
-src/Image.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YOLOv5_Detector.dir/build.make CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.i
-.PHONY : src/Image.cpp.i
-
-src/Image.s: src/Image.cpp.s
-.PHONY : src/Image.s
-
-# target to generate assembly for a file
-src/Image.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YOLOv5_Detector.dir/build.make CMakeFiles/YOLOv5_Detector.dir/src/Image.cpp.s
-.PHONY : src/Image.cpp.s
-
 src/Utils.o: src/Utils.cpp.o
 .PHONY : src/Utils.o
 
@@ -264,9 +240,6 @@ help:
 	@echo "... src/Detector.o"
 	@echo "... src/Detector.i"
 	@echo "... src/Detector.s"
-	@echo "... src/Image.o"
-	@echo "... src/Image.i"
-	@echo "... src/Image.s"
 	@echo "... src/Utils.o"
 	@echo "... src/Utils.i"
 	@echo "... src/Utils.s"
